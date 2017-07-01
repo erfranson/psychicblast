@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>PsychicBlast</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container">
+	    <div class="row" id="header">
+		    <div class="col-sm-12">
+			    <h1>Welcome to Psychic Blast</h1>
+			    <h3>The game show were you can test you ability to guess</h3>
+			</div>
+        </div>
+		<div class="row" id="rules">
+		    <div class="col-sm-12 rules">
+				<p>Rules:</p>
+					<ol>
+						<li>Guess a number between 1 and 100.</li>
+						<li>You have 7 guesses.</li>
+						<li>As you guess you will get hints if it's greater than, and less than.</li>
+						<li>Guess the number in you win, otherwise you lose.</li>
+				   </ol>
+			</div>
+        </div>
+        <div class="row" id="display">
+            <div class="col-sm-4 ">
+		        <h4>Wins: <span class="wins">0</span></h4>
+		    </div>
+		    <div class="col-sm-4">
+		        <h4>Losses: <span class="losses">0</span></h4>
+		    </div>
+		    <div class="col-sm-4">
+		        <h4>Guesses: <span class="guesses">7</span></h4>
+		    </div>
+		</div>
+		<div class="row" id="guess">
+			<div class="col-sm-12">
+				<form>
+					<div class="form-group">
+					    <p>Hint: <span class="hint"></span></p>
+				        <input type="number" name="guess" class="form-control" placeholder="Guess..">
+				        <p class="prevGuess">Numbers guessed: <span class="used"></span></p>
+				    <div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+  <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="assets/js/psychic.js"></script>
+</body>
+</html>

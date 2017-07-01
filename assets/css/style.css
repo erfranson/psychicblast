@@ -1,0 +1,27 @@
+body{
+	color:white;
+	background: black;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#header{
+	text-align: center;
+	font-style: bold;
+}
+#header h1,h3{
+	font-weight: 700;
+}
+#rules{
+	padding: 0 32%;
+}
+#display h4{
+	font-weight: 700;
+}
+#guess{
+	margin-top: 35px;
+}
+.prevGuess{
+	margin-top: 10px;
+}
+.form-group input{
+	width: 30%;
+}
